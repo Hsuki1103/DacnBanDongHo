@@ -1,0 +1,122 @@
+/* CSS cho trang thông tin cá nhân */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #343a40;
+}
+
+h2 {
+    font-size: 22px;
+    color: #495057;
+    margin-top: 20px;
+}
+
+.user-info {
+    text-align: center;
+    padding: 20px;
+}
+
+.user-info img.avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid #6c757d;
+    margin-bottom: 20px;
+}
+
+.user-info p {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #495057;
+}
+
+.user-info button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.user-info button:hover {
+    background-color: #0056b3;
+}
+
+#editForm {
+    padding: 20px;
+    border-top: 1px solid #dee2e6;
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #495057;
+}
+
+form input[type="text"], form input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+form button[type="submit"] {
+    background-color: #28a745;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button[type="submit"]:hover {
+    background-color: #218838;
+}
+
+#cancelButton {
+    background-color: #dc3545;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+#cancelButton:hover {
+    background-color: #c82333;
+}
+
+button {
+    display: inline-block;
+    margin: 5px;
+}

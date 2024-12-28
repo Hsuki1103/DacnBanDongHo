@@ -1,0 +1,20 @@
+
+.custom-footer {
+  margin-top: 150px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 1000; /* Giữ footer ở trên nội dung */
+}
+
+.custom-footer {
+  position: relative;
+  width: 100%;
+  background: #3586ff;
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

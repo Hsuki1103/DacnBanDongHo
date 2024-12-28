@@ -1,0 +1,262 @@
+	/* Đảm bảo hình ảnh đồng nhất */
+.tg-bookimg {
+    width: 100%;
+    height: 200px; /* Điều chỉnh chiều cao ảnh */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.tg-bookimg img {
+    width: auto;
+    height: 100%;
+    object-fit: cover; /* Cắt ảnh theo tỷ lệ */
+}
+
+/* Đặt chiều cao cố định cho tiêu đề */
+.tg-booktitle {
+    min-height: 40px; /* Điều chỉnh chiều cao phù hợp */
+    line-height: 1.5;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* Đặt chiều cao cố định cho phần hãng */
+.tg-bookwriter {
+    min-height: 20px;
+    display: block;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* Đặt chiều cao cố định cho phần nội dung sản phẩm */
+.tg-postbookcontent {
+    min-height: 120px; /* Tổng chiều cao nội dung */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Giãn đều nội dung */
+    text-align: center;
+}
+
+/* Đảm bảo khoảng cách giữa các sản phẩm */
+.tg-postbook {
+    margin-bottom: 20px; /* Khoảng cách giữa các item */
+}
+    /* Đổi nền menu thành màu đen */
+    .tg-navigationarea {
+        background-color: #000;
+    }
+
+    .tg-nav ul li a {
+        color: #fff;
+    }
+
+    .tg-nav ul li a:hover {
+        color: #f0a500;
+    }
+
+    /* Đổi nền trang thành màu xám */
+    body {
+        background-color:rgb(229, 229, 229);
+    }
+    .checkbox-large {
+        width: 25px;
+        height: 25px;
+    }
+    .quantity-input {
+        width: 100px;
+        text-align: center;
+        font-size: 16px;
+        margin: 0 auto;
+    }
+    .quantity-controls button {
+        font-size: 16px;
+    }
+    #tg-nav {
+        background-color: #000; /* Nền đen */
+    }
+    
+    /* Đổi màu chữ trên menu */
+    #tg-nav a {
+        color: #fff; /* Màu chữ trắng */
+        text-decoration: none;
+        font-size: 16px;
+        padding: 10px 15px;
+        display: inline-block;
+    }
+    
+    /* Khi hover vào menu */
+    #tg-nav a:hover {
+        color: #f0a500; /* Màu vàng nhạt khi hover */
+    }
+    
+    /* Đổi màu nút toggle menu (trên thiết bị di động) */
+    .navbar-toggle {
+        background-color: #000; /* Nút màu đen */
+        border-color: #fff; /* Viền trắng */
+    }
+    
+    .navbar-toggle .icon-bar {
+        background-color: #fff; /* Thanh ngang trắng */
+    }
+    
+    /* Đổi nền dropdown menu nếu có */
+    #tg-navigation {
+        background-color: #000; /* Nền dropdown đen */
+    }
+    
+    #tg-navigation a {
+        color: #fff; /* Chữ dropdown trắng */
+    }
+    
+    #tg-navigation a:hover {
+        color: #f0a500; /* Vàng nhạt khi hover */
+    }
+    .tg-btn2.tg-btnstyletwo2 {
+        background-color: #007bff; /* Màu nền chính */
+        color: #ffffff; /* Màu chữ */
+        border: 1px solid #0056b3; /* Đường viền */
+        padding: 10px 20px;
+        border-radius: 5px; /* Bo góc */
+        text-align: center;
+        text-decoration: none; /* Bỏ gạch chân */
+        display: inline-block;
+        font-size: 14px;
+        font-weight: bold;
+        transition: background-color 0.3s ease, color 0.3s ease; /* Hiệu ứng khi di chuột */
+    }
+    
+    /* Hiệu ứng hover */
+    .tg-btn2.tg-btnstyletwo2:hover {
+        background-color: #0056b3; /* Màu nền khi hover */
+        color: #ffffff; /* Màu chữ khi hover */
+        border-color: #004080; /* Màu viền khi hover */
+    }
+    
+    /* Hiệu ứng khi được nhấn */
+    .tg-btn2.tg-btnstyletwo2:active {
+        background-color: #004080; /* Màu nền khi click */
+        color: #ffffff;
+        border-color: #003366;
+        transform: scale(0.95); /* Hiệu ứng nhỏ lại khi click */
+    }
+    .tg-bookwriter {
+        font-size: 16px;
+        color: #333;
+        float: right;
+        margin-bottom: 8px;
+    }
+    .text-left {
+        text-align: left;
+    }
+    .tg-productdetail .col-md-6 {
+        padding: 15px; /* Giảm khoảng cách giữa hình ảnh và nội dung */
+    }
+    
+    .tg-productcontent {
+        padding-left: 20px; /* Tăng khoảng cách giữa ảnh và thông tin phía bên trái */
+    }
+    
+    .tg-featureimg img {
+        max-width: 100%;
+        height: auto;
+    }
+    .tg-advertisement-content img {
+        width:auto;
+        height: auto;
+        margin-top: 40px;
+     }   
+     h1 {
+        font-size: 35px; /* Chữ lớn, thu hút */
+        font-weight: bold; /* Chữ đậm */
+        background: linear-gradient(90deg, #ff6b6b, #f9ca24, #0a0a0a, #3498db); /* Gradient màu sặc sỡ */
+        background-size: 400%; /* Gradient chuyển động */
+        -webkit-background-clip: text; 
+        -webkit-text-fill-color: transparent; 
+        margin-top: 20px; 
+        margin-bottom: 20px; 
+        text-align: center; 
+        font-family: 'Poppins', sans-serif; /* Font chữ hiện đại */
+        letter-spacing: 0px; /* Khoảng cách chữ giãn rộng */
+        text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.8), 
+                     0px 0px 30px rgba(255, 0, 150, 0.5); /* Bóng phát sáng */
+        animation: gradientMove 3s infinite; /* Gradient động */
+        transition: transform 0.5s ease-in-out, text-shadow 0.5s ease-in-out; /* Hiệu ứng chuyển đổi */
+    }
+    
+    h1:hover {
+        transform: scale(1.2) rotate(2deg); /* Phóng to và xoay nhẹ */
+        text-shadow: 0px 0px 30px rgba(255, 255, 255, 1), 
+                     0px 0px 40px rgba(255, 0, 150, 0.8); /* Bóng phát sáng mạnh hơn */
+        animation: gradientHover 1.5s infinite; /* Tăng tốc gradient khi hover */
+    }
+    
+    /* Hiệu ứng gradient động */
+    @keyframes gradientMove {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+    
+    /* Hiệu ứng gradient động nhanh hơn khi hover */
+    @keyframes gradientHover {
+        0% {
+            background-position: 0% 50%;
+        }
+        100% {
+            background-position: 100% 50%;
+        }
+    }
+    .tg-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px; /* Chiều cao của nút */
+        width: 200px; /* Chiều rộng của nút */
+        background-color: #007bff; /* Màu nền */
+        color: white;
+        text-align: center;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin: 10px auto; /* Tự động căn giữa */
+    }
+    
+    .tg-btn h1 {
+        margin: 0;
+    }
+    /*màu nút chuyển trang sản phẩm*/   
+    .pagination {
+        justify-content: center;
+        display: flex;
+        padding-left: 0;
+        list-style: none;
+    }
+    .page-item.active .page-link {
+        background-color: #007bff;
+        border-color: #007bff;
+    }
+    .page-link {
+        color: #007bff;
+        padding: 10px 15px;
+        border: 1px solid #007bff;
+    }
+    .page-link:hover {
+        color: #fff;
+        background-color: #007bff;
+        border-color: #007bff;
+    }
+        
+    
