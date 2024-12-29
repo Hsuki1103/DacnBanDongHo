@@ -137,6 +137,12 @@ $watches = $result->fetch_all(MYSQLI_ASSOC);
     <link rel="stylesheet" href="admin.css">
 </head>
 <body>
+    <div class="menu">
+        <a href="quanlydongho.php">Quản lý đồng hồ</a>
+        <a href="quanlyhoadon.php">Quản lý hóa đơn</a>
+        <a href="quanlytaikhoan.php">Quản lý tài khoản</a>
+        <a href="logoutad.php">Đăng xuất</a>
+    </div>
 <div class="container mt-5">
     <h1>Quản lý đồng hồ</h1>
 
